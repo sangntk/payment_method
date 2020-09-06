@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Social Link</title>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+</head>
+
+<body>
+    <div class="background_container">
+        <div class="main_container">
+            <div class="info_container">
+                <h1>Payment method</h1>
+                <hr />
+                <div class="icon-container">
+                    <i class="fa fa-cc-visa fa-2x" style="color:navy;"></i>
+                    <i class="fa fa-cc-mastercard fa-2x" style="color:red;"></i>
+                </div>
+                <div class="form-container">
+                    <div class="field-container">
+                        <label for="name">Cardholder name</label>
+                        <input id="name" maxlength="20" type="text" placeholder="Diane Miles">
+                    </div>
+                    <div class="field-container">
+                        <label for="cardnumber">Card Number</label>
+                        <input id="cardnumber" type="text" pattern="[0-9]*" inputmode="numeric" placeholder="1234 6573 8228 7373">
+                    </div>
+                    <div class="field-container">
+                        <label for="expirationdate">Date</label>
+                        <input id="expirationdate" type="text" pattern="[0-9]*" inputmode="numeric" placeholder="10/25">
+                    </div>
+                    <div class="field-container">
+                        <label for="securitycode">Security Code</label>
+                        <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric" placeholder="329">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
